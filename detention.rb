@@ -13,4 +13,8 @@ class Detention
     @students << student
   end
 
+  def remove_student(student)
+    @students.remove(student)
+  end
+
 end
