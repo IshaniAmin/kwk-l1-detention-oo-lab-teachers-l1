@@ -13,7 +13,7 @@ class Detention
   end
 
   def remove_student(student)
-    @students.remove(student)
+    @students.delete(student)
   end
 
 end
